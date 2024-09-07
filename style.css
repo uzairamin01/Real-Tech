@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: #0e1149;
+}
+
+header {
+  height: 13vh;
+  width: 99.8%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 0.917);
+}
+
+.nav-img {
+  height: 12vh;
+  padding-top: 3vw;
+}
+
+.nav-icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-img img {
+  height: 100%;
+}
+
+.nav h3 {
+  font-size: 1.6vw;
+  padding: 0 3vw;
+  color: #FDB58D;
+  cursor: pointer;
+}
+
+.nav h3:hover{
+  border-bottom: 2px solid #FDB58D;
+  padding-bottom: 2vw;
+}
+
+.first-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.textarea {
+  width: 60%;
+  color: #e6e6e6;
+  margin-top: 5vw;
+  margin-left: 7vw;
+}
+
+.textarea h1 {
+  font-size: 7vw;
+  font-weight: 900;
+}
+.textarea h2 {
+  font-size: 4.6vw;
+  text-transform: uppercase;
+  line-height: 1vw;
+  margin-bottom: 3vw;
+  color: #FDB58D;
+}
+
+.textarea p {
+  width: 65%;
+  opacity: 0.8;
+}
+
+.textarea button {
+  margin-top: 2vw;
+  height: 7vh;
+  width: 9vw;
+  font-size: 1.2vw;
+  border-radius: 30px;
+  background-color: #fdb1a6;
+  border: none;
+}
+
+.textarea button:hover{
+    border: 2px solid black;
+    color: black;
+    text-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px black;
+}
+
+.img{
+    width: 50vw;
+    height: 90vh;
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(0 0 30px black);
+}
+
+.first-page::after{
+    content: "";
+    filter: drop-shadow(0 0 30px black);
+}
+
+.second-page{
+    height: 80vh;
+    width: 99.8%;
+}
+
+.pictures{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10vw;
+  }
+  
+  .pictures img{
+    margin-bottom: 1vw;
+    background: linear-gradient(cyan, purple);
+    border-radius: 10px;
+    height: 40vh;
+    width: 30vw;
+    padding: 4px;
+    object-fit: cover;
+    object-position: center;
+    animation: rotate infinite 2s;
+    cursor: pointer;
+}
+
+.second-img img, .fifth-img img{
+    width: 18vw;
+    border-radius: 20%;
+    height: 35vh;
+}
+
+.pictures h1{
+  color: #e6e6e6;
+  font-size: 1.5vw;
+  margin-left: 3.5vw;
+  margin-bottom: 3vw;
+  cursor: pointer;
+}
+
+.first-img h1, .six-img h1{
+  margin-left: 8vw;
+} 
+
+.third-page{
+  min-height: 100vh;
+  width: 99.8%;
+  margin-top: 20vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagearea{
+  width: 50%;
+  position: relative;
+}
+
+.img1{
+  position: absolute;
+  top: 25vh;
+  left: 20%;
+  width: 15vw;
+  border-top-right-radius: 50%;
+  height: 45vh;
+}
+.img2{
+  top: 10vh;
+  left: 51%;
+  position: absolute;
+  height: 30vh;
+  width: 15.3vw;
+  border-top-right-radius: 50%;
+
+}
+.img3{
+  position: absolute;
+  top: 41vh;
+  left: 51.5%;
+  width: 15vw;
+  border-top-left-radius: 50%;
+  height: 40vh;
+}
+
+.imagearea img{
+  filter: drop-shadow(0 5px 30px #000000);
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+}
+
+.textsarea{
+  width: 50%;
+  margin-top: 7vw;
+}
+
+.textsarea h1{
+  font-size: 4vw;
+  font-weight: 900;
+  line-height: 4vw;
+  color: #FDB58D;
+}
+
+.textsarea h1>span{
+  color: #29B2E3;
+}
+
+.textsarea p{
+  margin-top: 2vw;
+  font-size: 1.5vw;
+  width: 80%;
+  color: #e6e6e6c0;
+  line-height: 2.3vw;
+}
+
+.textsarea button{
+  margin-top: 3vw;
+  font-size: 1.4vw;
+  padding: .5vw 1vw;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(to left, #29B2E3, #FDB58D);
+  color: black;
+  box-shadow: 2px 0 10px black;
+  cursor: pointer;
+}
+
+.textsarea>i{
+  margin-left: 1vw;
+  margin-top: 2vw;
+  color: #29B2E3;
+  font-size: 1.8vw;
+  cursor: pointer;
+}
+
+.fourth-page{
+  height: 100vh;
+  width: 99.8%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.textarea-fourth{
+    width: 50%;
+    margin-top: 5vw;
+    margin-left: 15vw;
+  }
+  
+  .textarea-fourth h1{
+    font-size: 6vw;
+    font-weight: 800;
+    line-height: 6vw;
+    color: #667A9B;
+  }
+  
+  .textarea-fourth h1>span{
+    color: #E07243;
+  }
+
+.textarea-fourth p{
+  margin-top: 1vw;
+  width: 80%;
+  color: #e6e6e69a;
+}
+
+.textarea-fourth button{
+  margin-top: 3vw;
+  font-size: 1.4vw;
+  padding: .5vw 2vw;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(to left, #E07243, #3794B6);
+  color: black;
+  box-shadow: 2px 0 10px black;
+  cursor: pointer;
+  color: white;
+}
+
+.imagesarea img{
+  margin-right: 15vw;
+  /* filter: drop-shadow(0 5px 30px #000000); */
+  height: 80vh;
+}
+
+.fifth-page{
+  height: 100vh;
+  width: 99.8%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vw;
+}
+
+.template{
+  border: 3px solid white;
+  padding: 5vw 10vw;
+  height: 30vh;
+  border-image: linear-gradient(cyan, purple);
+  border-style: solid;
+  border-width: 6px;
+  border-image-slice: 1;
+  border-radius: 20px;
+}
+
+.template h1{
+  color: white;
+  font-size: 2.3vw;
+}
+
+.template p{
+  color: rgba(255, 255, 255, 0.816);
+  margin-top: 1vw;
+  margin-left: -3vw;
+}
+
+footer {
+  background-color: #0e1149;
+  color: #FDB58D;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 0 20px;
+}
+
+.footer-section h3 {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section p{
+  margin: 10px 0;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.footer-section a {
+  color: #FDB58D;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bottom ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-bottom p {
+  margin: 10px 0;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
