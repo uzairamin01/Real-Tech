@@ -500,11 +500,11 @@ footer {
   }
   
   .textarea h1 {
-    font-size: 15vw;
+    font-size: 17vw;
     font-weight: 900;
   }
   .textarea h2 {
-    font-size: 10vw;
+    font-size: 11vw;
     text-transform: uppercase;
     line-height: 1vw;
     margin-bottom: 8vw;
@@ -514,14 +514,14 @@ footer {
   .textarea p {
     width: 90%;
     opacity: 0.8;
-    font-size: 6vw;
+    font-size: 4vw;
   }
   
   .textarea button {
     margin-top: 10vw;
-    height: 6vh;
+    height: 4vh;
     width: 30vw;
-    font-size: 5vw;
+    font-size: 4vw;
     border-radius: 30px;
     background-color: #fdb1a6;
     border: none;
@@ -533,7 +533,7 @@ footer {
   
   .img {
     width: 100vw;
-    height: 80vh;
+    height: 60vh;
   }
   
   .img img {
@@ -613,14 +613,14 @@ footer {
   
   .img1 {
     position: absolute;
-    top: 65vh;
+    top: 75vh;
     left: 15%;
     width: 30vw;
     border-top-right-radius: 50%;
     height: 20vh;
   }
   .img2 {
-    top: 55vh;
+    top: 65vh;
     left: 46%;
     position: absolute;
     height: 15vh;
@@ -629,7 +629,7 @@ footer {
   }
   .img3 {
     position: absolute;
-    top: 70vh;
+    top: 80vh;
     left: 47%;
     width: 35vw;
     border-top-left-radius: 50%;
@@ -700,12 +700,12 @@ footer {
   
   .textarea-fourth {
     width: 100%;
-    margin-top: 20vw;
-    margin-left: 10vw;
+    margin-top: 25vw;
+    margin-left: 5vw;
   }
   
   .textarea-fourth h1 {
-    font-size: 16vw;
+    font-size: 18vw;
     font-weight: 900;
     line-height: 16vw;
     color: #667a9b;
@@ -739,6 +739,7 @@ footer {
     /* filter: drop-shadow(0 5px 30px #000000); */
     height: 45vh;
     margin-top: 10vw;
+    margin-bottom: 10vw;
   }
 
 
