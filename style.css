@@ -218,7 +218,7 @@ nav {
 /* second section is starting there */
 
 .second-page {
-  height: 80vh;
+  min-height: 80vh;
   width: 99.8%;
 }
 
@@ -545,8 +545,7 @@ footer {
   /* second section */
 
   .second-page {
-    display: none;
-    height: 100vh;
+    min-height: 100vh;
     width: 99.8%;
     position: relative;
     /* display: none; */
@@ -614,8 +613,8 @@ footer {
   .img1 {
     position: absolute;
     top: 75vh;
-    left: 15%;
-    width: 30vw;
+    left: 5%;
+    width: 40vw;
     border-top-right-radius: 50%;
     height: 20vh;
   }
@@ -624,14 +623,14 @@ footer {
     left: 46%;
     position: absolute;
     height: 15vh;
-    width: 25vw;
+    width: 35vw;
     border-top-right-radius: 50%;
   }
   .img3 {
     position: absolute;
     top: 80vh;
     left: 47%;
-    width: 35vw;
+    width: 45vw;
     border-top-left-radius: 50%;
     height: 20vh;
   }
