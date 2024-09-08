@@ -356,7 +356,7 @@ nav {
 /* fourth section is starting there */
 
 .fourth-page {
-  height: 100vh;
+  min-height: 100vh;
   width: 99.8%;
   display: flex;
   justify-content: space-around;
@@ -602,6 +602,7 @@ footer {
     display: block;
     justify-content: space-around;
     overflow: hidden;
+    margin-bottom: 2vw;
   }
   
   .imagearea {
@@ -689,7 +690,7 @@ footer {
   /* fourth section  */
 
   .fourth-page {
-    height: 100vh;
+    min-height: 100vh;
     width: 99.8%;
     display: block;
     justify-content: space-around;
