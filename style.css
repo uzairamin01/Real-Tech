@@ -561,8 +561,8 @@ footer {
     margin-bottom: 2vw;
     background: linear-gradient(cyan, purple);
     border-radius: 20%;
-    height: 20vh;
-    width: 60vw;
+    height: 25vh;
+    width: 65vw;
     padding: 4px;
     object-fit: cover;
     object-position: center;
@@ -571,9 +571,9 @@ footer {
   
   .second-img img,
   .fifth-img img {
-    width: 60vw;
+    width: 66vw;
     border-radius: 20%;
-    height: 20vh;
+    height: 25vh;
   }
   
   .pictures h1 {
