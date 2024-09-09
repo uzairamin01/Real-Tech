@@ -74,8 +74,8 @@ nav {
 .close {
   position: absolute;
   top: 20px;
-  right: 100vw;
-  font-size: 30px;
+  right: 10vw;
+  font-size: 60px;
   color: #ffffff;
   background: none;
   border: none;
@@ -134,6 +134,11 @@ nav {
     padding: 15px 0;
     color: #ffffff;
     border-bottom: 2px solid transparent;
+  }
+
+  .logo img{
+    width: 150px;
+    margin-left: 1vw;
   }
 }
 
