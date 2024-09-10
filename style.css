@@ -665,11 +665,11 @@ footer {
   .third-page {
     min-height: 100vh;
     width: 99.8%;
-    margin-top: 20vw;
+    padding-top: 20vw;
     display: block;
     justify-content: space-around;
     overflow: hidden;
-    margin-bottom: 2vw;
+    padding-bottom: 2vw;
   }
   
   .imagearea {
@@ -762,11 +762,11 @@ footer {
     display: block;
     justify-content: space-around;
     overflow: hidden;
+    padding-top: 25vw;
   }
   
   .textarea-fourth {
     width: 100%;
-    margin-top: 25vw;
     margin-left: 5vw;
   }
   
@@ -804,7 +804,7 @@ footer {
     margin-left: 15vw;
     /* filter: drop-shadow(0 5px 30px #000000); */
     height: 45vh;
-    margin-top: 10vw;
+    padding-top: 10vw;
   }
   
   .imagesarea{
