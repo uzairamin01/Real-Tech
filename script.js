@@ -44,15 +44,15 @@ function animationForMobile() {
       duration: 1     // Each animation lasts 1 second
     });
 
-    gsap.from(".pictures img, .pictures h1", {
-      y: 100,
-      opacity: 0,
-      duration: 1,
-      stagger: 0.2,
-      scrollTrigger: {
-        trigger: ".second-page",
-      }
-    })
+    // gsap.from(".pictures img, .pictures h1", {
+    //   y: 100,
+    //   opacity: 0,
+    //   duration: 1,
+    //   stagger: 0.2,
+    //   scrollTrigger: {
+    //     trigger: ".second-page",
+    //   }
+    // })
 
   })
 }
