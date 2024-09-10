@@ -169,6 +169,7 @@ nav {
   justify-content: space-evenly;
   position: relative;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .first-page::before{
