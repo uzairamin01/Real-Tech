@@ -37,12 +37,18 @@ function animationForMobile() {
       opacity: 0,
       duration: 1.2,
     })
-    gsap.from(".textarea h1, .textarea h2, .textarea p,.textarea button,.img img ", {
+    gsap.from(".textarea h1, .textarea h2, .textarea p,.textarea button", {
       opacity: 0,
       y: 50,
       stagger: 0.2,   // 0.2 seconds delay between each animation
       duration: 1     // Each animation lasts 1 second
     });
+
+    gsap.from(".img img", {
+      opacity: 0,
+      y: 50,
+      duration: 1,
+    })
 
     // gsap.from(".pictures img, .pictures h1", {
     //   y: 100,

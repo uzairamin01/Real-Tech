@@ -17,6 +17,7 @@ nav {
   border-bottom: 1px solid white;
   margin:  0 5vw;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .logo img {
