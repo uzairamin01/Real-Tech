@@ -1,10 +1,9 @@
 onload();
 
-
 function onload() {
   menuSideBar();
-  animationForMobile();
-  dekstopAnimation();
+  mobileAnimation();
+  desktopAnimation();
 }
 
 function menuSideBar(){
@@ -23,7 +22,7 @@ close.addEventListener("click", () => {
 });
 }
 
-function animationForMobile() {
+function mobileAnimation() {
   let mm = gsap.matchMedia();
   let tl = gsap.timeline();
   mm.add("(max-width:1023px)", ()=>{
@@ -87,7 +86,7 @@ function animationForMobile() {
   })
 }
 
-function dekstopAnimation(){
+function desktopAnimation(){
   let mm = gsap.matchMedia();
   mm.add("(min-width:1024px)", ()=>{
     gsap.from(".logo, .desktop-menu a",{
